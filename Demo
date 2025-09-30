@@ -1,0 +1,23 @@
+# Flask App Configuration
+FLASK_APP=run.py
+FLASK_ENV=development
+FLASK_SECRET_KEY=ujyfyfydgxtyfuyutiugiutu
+
+# Gmail SMTP Configuration
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=h15465101@gmail.com
+MAIL_PASSWORD=htkzbnecbjxnddsl
+MAIL_USE_TLS=True
+MAIL_USE_SSL=False
+MAIL_DEFAULT_SENDER=h15465101@gmail.com
+MAIL_DEFAULT_SENDER_NAME=J.N.V Gopalganj
+
+
+# database url 
+# DATABASE_URL=sqlite:///database.db
+# DATABASE_URL=postgresql://postgres:aadi7525@localhost:5332/school_db
+DATABASE_URL=postgresql+psycopg2://postgres:aadi7525@localhost:5432/school_db
+
+# register passkey
+SECRET_REGISTER_KEY=CLASSROOM2025
